@@ -1,0 +1,11 @@
+{   
+    "brand": "",
+    "name": "",
+    "price": "",
+    "description": "",
+    "model": "",
+    "extent": "",
+    "material": "",
+    "stock": true,
+    "category": ""
+}
