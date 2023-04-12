@@ -5,9 +5,10 @@ module.exports = validarID = async (req, res, next ) => {
         if (item !== null) {
             next();
         } else {
-            return res.status(501).json({msg: "The id is incorrect"})
+            return res.status(502).json({msg: "The id is incorrect"})
         }
     } catch (error) {
-        res.status(501).json(error)
+        res.status(502).json(error)
     }
 }  
+                                                                                         

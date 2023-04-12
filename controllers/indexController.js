@@ -1,5 +1,5 @@
 const index = (req, res) => {
-    res.status(200).send('al mundo')
+    res.status(200).send('Welcome a Skateshop')
 }
 
 module.exports = {index}

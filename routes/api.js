@@ -7,7 +7,7 @@ const {check} = require('express-validator')
 
 router.get('/ver', apiController.lista)
 router.get('/ver/:id',validarID ,apiController.listaById)
-//metodo http - expresion de la ruta - middleware - callback
+
 
 router.post('/crear', [
     check('name').not().isEmpty().withMessage('the field name is required').isLength({min:2, max: 30}).withMessage('The name field must have a minimum of 2 characters and a maximum of 30'),
