@@ -41,5 +41,5 @@ module.exports = {
     async eliminar (req, res) {
         await Article.findByIdAndDelete(req.params.id);
         res.json({msg: "The product was removed correctly id - " + req.params.id})
-    }
+    },
 }
