@@ -17,5 +17,8 @@
     "express-validator": "^6.15.0",
     "mongoose": "^7.0.2",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13"
   }
 }
